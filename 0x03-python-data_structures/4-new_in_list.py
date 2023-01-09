@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 def new_in_list(my_list, idx, element):
     n = len(my_list)
@@ -8,4 +9,4 @@ def new_in_list(my_list, idx, element):
         return list_cpy
     else:
         list_cpy[idx] = element
-        return 
+        return list_cpy
